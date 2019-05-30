@@ -1,2 +1,2 @@
-# effective-octo-disco
+# Booka
 Bus booking company
