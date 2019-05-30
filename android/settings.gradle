@@ -1,0 +1,3 @@
+rootProject.name = 'Booka'
+
+include ':app'
