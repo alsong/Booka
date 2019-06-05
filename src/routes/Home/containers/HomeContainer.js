@@ -1,16 +1,16 @@
 import {connect} from 'react-redux';
 import Home from './components/Home';
 import {
-    setName
+    GetCureentLocation
 } from '.../modules/home';
 
 const mapStateToProps = (state) =>({
     //This is where i will pass all my props that i want to map to my components
-    name: state.home.name
+    region: state.home.region
 });
 
 const mapActionCreators = {
-    setName
+    GetCureentLocation
 };
 
 export default connect(mapStateToProps,mapActionCreators)(Home);
